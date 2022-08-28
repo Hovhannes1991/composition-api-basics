@@ -7,8 +7,8 @@ import { RouterLink, RouterView } from "vue-router";
     <header>
       <div class="wrapper">
         <nav>
-          <RouterLink to="/">Home</RouterLink>
-          <RouterLink to="/about">About</RouterLink>
+          <RouterLink to="/" active-class="active">Home</RouterLink>
+          <RouterLink to="/about" active-class="active">About</RouterLink>
         </nav>
       </div>
     </header>
@@ -24,6 +24,11 @@ import { RouterLink, RouterView } from "vue-router";
 </template>
 
 <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .app {
   display: flex;
   align-items: center;
@@ -31,6 +36,15 @@ import { RouterLink, RouterView } from "vue-router";
   flex-direction: column;
   width: 50vw;
   margin: 50px auto;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+}
+
+a.active {
+  background-color: pink;
 }
 
 .page-title {

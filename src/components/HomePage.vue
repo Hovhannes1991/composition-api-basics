@@ -5,7 +5,9 @@
     <!-- <ComputedTest /> -->
     <!-- <WatcherTest /> -->
     <!-- <LifeCicleHookstest /> -->
-    <Directivestest />
+    <!-- <Directivestest /> -->
+    <!-- <RouterTest /> -->
+    <Emittest />
   </div>
 </template>
 
@@ -16,6 +18,8 @@ import ComputedTest from "./ComputedTest.vue";
 import WatcherTest from "./WatcherTest.vue";
 import LifeCicleHookstest from "./LifeCicleHooksTest.vue";
 import Directivestest from "./Directivestest.vue";
+import RouterTest from "./RouterTest.vue";
+import Emittest from "./Emittest.vue";
 </script>
 
 <style lang="scss" scoped></style>
