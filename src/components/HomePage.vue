@@ -7,7 +7,10 @@
     <!-- <LifeCicleHookstest /> -->
     <!-- <Directivestest /> -->
     <!-- <RouterTest /> -->
-    <Emittest />
+    <!-- <Emittest /> -->
+    <!-- <ComposablesTest /> -->
+    <!-- <ComposablesGlobalTest /> -->
+    <ComposablesTestVueUse />
   </div>
 </template>
 
@@ -20,6 +23,9 @@ import LifeCicleHookstest from "./LifeCicleHooksTest.vue";
 import Directivestest from "./Directivestest.vue";
 import RouterTest from "./RouterTest.vue";
 import Emittest from "./Emittest.vue";
+import ComposablesTest from "./ComposablesTest.vue";
+import ComposablesGlobalTest from "./ComposablesGlobalTest.vue";
+import ComposablesTestVueUse from "./ComposablesTestVueUse.vue";
 </script>
 
 <style lang="scss" scoped></style>
