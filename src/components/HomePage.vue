@@ -10,7 +10,8 @@
     <!-- <Emittest /> -->
     <!-- <ComposablesTest /> -->
     <!-- <ComposablesGlobalTest /> -->
-    <ComposablesTestVueUse />
+    <!-- <ComposablesTestVueUse /> -->
+    <PiniaTest />
   </div>
 </template>
 
@@ -26,6 +27,7 @@ import Emittest from "./Emittest.vue";
 import ComposablesTest from "./ComposablesTest.vue";
 import ComposablesGlobalTest from "./ComposablesGlobalTest.vue";
 import ComposablesTestVueUse from "./ComposablesTestVueUse.vue";
+import PiniaTest from "./PiniaTest.vue";
 </script>
 
 <style lang="scss" scoped></style>
